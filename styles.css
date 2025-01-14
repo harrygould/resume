@@ -1,0 +1,524 @@
+/* Mobile view */
+body {
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+  text-align: center;
+  color: black;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 163, 163),
+    rgb(145, 193, 255)
+  );
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.header_content {
+  text-align: center;
+  color: blanchedalmond;
+}
+.header_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  z-index: -1;
+}
+header {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  margin: 0px;
+}
+.profile_image {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  border-style: double;
+  margin: 20px;
+}
+h2 {
+  font-size: 30px;
+}
+.h1p {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  border: blanchedalmond 1px;
+  border-style: double;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#sub_heading {
+  font-size: 20px;
+}
+.personal_info {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+  border: double blanchedalmond 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  background-color: rgba(162, 244, 255, 0.4);
+  border: double black 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 10px;
+}
+h4 {
+  background-color: rgba(255, 235, 205, 0.4);
+  border: double black 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 10px;
+  margin: 10px;
+}
+h5 {
+  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 10px;
+  margin: 10px;
+}
+ul {
+  padding-bottom: 20px;
+  border-width: 100%;
+}
+#career_snapshot {
+  border-bottom: solid black 5px;
+  border-width: 100%;
+  padding-bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#career_snapshot h2 {
+  background-color: rgb(255, 235, 205, 0.4);
+  border: double black 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+}
+#experience {
+  border-bottom: solid black 5px;
+  border-width: 100%;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#experience h2 {
+  background-color: rgb(255, 235, 205, 0.4);
+  border: double black 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 1200px) {
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black 1px;
+    padding-bottom: 15px;
+  }
+  .no_underline {
+    border: none;
+  }
+  .no_underline2 {
+    border: none;
+  }
+
+  #education {
+    border-bottom: solid black 10px;
+    border-width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #education h2 {
+    background-color: rgb(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+  }
+  footer {
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  body {
+    font-family: "Courier New", Courier, monospace;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(255, 163, 163),
+      rgb(145, 193, 255)
+    );
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+  }
+  .header_content {
+    text-align: center;
+    color: blanchedalmond;
+  }
+  .header_bg {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    z-index: -1;
+  }
+  header {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+  }
+  .profile_image {
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    border-style: double;
+    margin: 20px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .h1p {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    border: blanchedalmond 1px;
+    border-style: double;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #sub_heading {
+    font-size: 20px;
+  }
+  .personal_info {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    border: double blanchedalmond 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  a {
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+  }
+  h3 {
+    background-color: rgba(162, 244, 255, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 10px;
+  }
+  h4 {
+    background-color: rgba(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 10px;
+    margin: 10px;
+  }
+  h5 {
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 10px;
+    margin: 10px;
+  }
+  ul {
+    padding-bottom: 20px;
+  }
+  #career_snapshot {
+    border-bottom: solid black 5px;
+    border-width: 100%;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #career_snapshot h2 {
+    background-color: rgb(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #experience {
+    border-bottom: solid black 5px;
+    border-width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #experience h2 {
+    background-color: rgb(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+  }
+  #education {
+    border-bottom: solid black 10px;
+    border-width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #education h2 {
+    background-color: rgb(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+  }
+  footer {
+    background-color: black;
+    color: blanchedalmond;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* * {
+    width: 100%; */
+
+  body {
+    font-family: "Courier New", Courier, monospace;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(255, 163, 163),
+      rgb(145, 193, 255)
+    );
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+  }
+  .header_content {
+    text-align: center;
+    color: blanchedalmond;
+  }
+  .header_bg {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    z-index: -1;
+  }
+  header {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+  }
+  .profile_image {
+    margin-top: 20px;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    border-style: double;
+    margin: 20px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .h1p {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    border: blanchedalmond 1px;
+    border-style: double;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #sub_heading {
+    font-size: 20px;
+  }
+  .personal_info {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    border: double blanchedalmond 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  a {
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+  }
+  h3 {
+    background-color: rgba(162, 244, 255, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 10px;
+  }
+  h4 {
+    background-color: rgba(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 10px;
+    margin: 10px;
+  }
+  h5 {
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 10px;
+    margin: 10px;
+  }
+  ul {
+    padding-bottom: 20px;
+    list-style-type: none;
+  }
+  #career_snapshot {
+    border-bottom: solid black 5px;
+    border-width: 100%;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #career_snapshot h2 {
+    background-color: rgb(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #experience {
+    border-bottom: solid black 5px;
+    border-width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #experience h2 {
+    background-color: rgb(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #education {
+    border-bottom: solid black 10px;
+    border-width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #education h2 {
+    background-color: rgb(255, 235, 205, 0.4);
+    border: double black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer {
+    background-color: black;
+    width: 100%;
+  }
+}
